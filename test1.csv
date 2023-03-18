@@ -1,0 +1,48 @@
+Participant,StartTime,EndTime
+Client1,11:30,13:02
+,15:29,17:00
+Client2,12:54,16:07
+Client3,9:54,12:00
+,14:39,16:27
+Client4,10:28,12:09
+Client5,11:55,14:30
+,14:38,17:00
+Client6,10:26,11:53
+,12:38,14:27
+Client7,9:43,12:30
+,16:57,17:00
+Client8,9:55,12:22
+,13:02,14:39
+,14:58,17:00
+Client9,14:34,17:00
+Client10,14:57,17:00
+
+Welcome to CSSU x Purefacts Programming Challenge Day!
+
+Problem
+Given a series of calendars please find the largest span of free time available for everyone to meet between 9am and 5pm. The meeting times are specified in a CSV file with the following format:
+ClientID, startTime, endTime
+This is per meeting, per client with the time in 24hr clock format and the resolution is per minute. imagine a VERY efficient office.
+The program should return a start time (hh:mm) and duration (in min) for the longest meeting time free for all involved individuals. Please return "None" if no free time can be found.
+
+Please use the following as test files:
+test1.csv, test2.csv, test3.csv, test4.csv, test5.csv
+Submission Instructions
+
+First 10 correct solutions gets the prize
+
+Step 1: Please create a private git repository named cssu-purefacts-winter-2023-firstname-lastname, replacing firstname with your first name and lastname with your last name.
+If you aren’t familiar with GitHub, follow the steps here. Select private on step 6: https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-new-repository
+
+Step 2: Upload your source code and answers to the repository.
+Feel free to use Git if you know how to
+Otherwise, you can upload the files directly to save time spent learning Git: https://docs.github.com/en/repositories/working-with-files/managing-files/adding-a-file-to-a-repository
+
+Step 3: Add cssu-purefacts-challenge as a collaborator on your repository.
+Guide here: https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-access-to-your-personal-repositories/inviting-collaborators-to-a-personal-repository
+
+Step 4: Please fill out this form, and link your private repository in the appropriate question number: https://forms.gle/XMauZtqBpGwMN3dKA
+
+Step 5: Submit the form, congratulations, you’re done!
+
+
